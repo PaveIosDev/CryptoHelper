@@ -13,6 +13,7 @@
 		C40720D52941236400DE3C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40720D32941236400DE3C34 /* Main.storyboard */; };
 		C40720D72941236500DE3C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40720D62941236500DE3C34 /* Assets.xcassets */; };
 		C40720DA2941236500DE3C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40720D82941236500DE3C34 /* LaunchScreen.storyboard */; };
+		C40720E2294123F100DE3C34 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40720E1294123F100DE3C34 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C40720D62941236500DE3C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40720D92941236500DE3C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C40720DB2941236500DE3C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40720E1294123F100DE3C34 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C40720CD2941236400DE3C34 /* AppDelegate.swift */,
 				C40720CF2941236400DE3C34 /* SceneDelegate.swift */,
 				C40720D12941236400DE3C34 /* ViewController.swift */,
+				C40720E1294123F100DE3C34 /* APICaller.swift */,
 				C40720D32941236400DE3C34 /* Main.storyboard */,
 				C40720D62941236500DE3C34 /* Assets.xcassets */,
 				C40720D82941236500DE3C34 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C40720D22941236400DE3C34 /* ViewController.swift in Sources */,
 				C40720CE2941236400DE3C34 /* AppDelegate.swift in Sources */,
 				C40720D02941236400DE3C34 /* SceneDelegate.swift in Sources */,
+				C40720E2294123F100DE3C34 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
